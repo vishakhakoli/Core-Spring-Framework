@@ -1,4 +1,4 @@
-package com.sprinframework.ref;
+package com.springframework.ref;
 
 public class A {
 	

@@ -7,11 +7,11 @@
   https://www.springframework.org/schema/beans/spring-beans.xsd">
   
   
- <bean class="com.sprinframework.ref.B" name="bref">
+ <bean class="com.springframework.ref.B" name="bref">
 	 <property name="y" value="12" />
  </bean>
  
- <bean class="com.sprinframework.ref.A" name="aref">
+ <bean class="com.springframework.ref.A" name="aref">
 	 <property name="x" value="2" />
 	 <property name="ob" ref="bref" />
  </bean>
