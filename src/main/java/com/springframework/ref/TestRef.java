@@ -1,4 +1,4 @@
-package com.sprinframework.ref;
+package com.springframework.ref;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
@@ -7,7 +7,7 @@ public class TestRef {
 
 	public static void main(String[] args) {
 		
-		ApplicationContext context = new ClassPathXmlApplicationContext("com/sprinframework/ref/refconfig.xml");
+		ApplicationContext context = new ClassPathXmlApplicationContext("com/springframework/ref/refconfig.xml");
 		A aref =(A) context.getBean("aref");
 		
 		System.out.println(aref.getX());
